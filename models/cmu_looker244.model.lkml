@@ -31,6 +31,10 @@ explore: billion_orders {
   }
 }
 
+explore: all_bottle_dispenses {
+  label: "Bottle dispenses PDT"
+}
+
 explore: connection_reg_r3 {}
 
 explore: day_of_week {}
