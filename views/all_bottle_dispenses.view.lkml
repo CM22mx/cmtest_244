@@ -41,6 +41,11 @@ view: all_bottle_dispenses {
 
       }
 
+      dimension: created_week {
+        type: date_time
+        sql: ${date_week} ;;
+      }
+
       measure: quantity {
         type: count
        # drill_fields: [detail*]
